@@ -245,6 +245,7 @@ class CalcController {
 
         let result = this.getResult()
 
+        last = this._lastOperator;
         if (last == '%') {
 
             result = result / 100;
